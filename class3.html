@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid and border properties</title>
+    <style>
+        p.dotted{
+            border: dotted red;
+        }
+        h2{
+            border-style: double;
+            padding: 10px;
+            border-radius: 10px dotted;
+            
+        }
+        .grid-container{
+                display: grid;
+                grid-template-columns: 100px 100px 100px;
+                grid-template-rows: 100px 100px;
+                gap: 10px;
+                background-color: #C7D4B2;
+            }
+            .grid-item{
+                display: flex;
+                background-color: #F8CDAB;
+                color: blue;
+                justify-content: center;
+                align-items: center;
+            }
+    </style>
+</head>
+<body>
+    <h2 class="nn">The border style property</h2>
+    <p>Some content for my class </p>
+    <p class="dotted">A dot border</p>
+
+<hr>
+        <div class="grid-container">
+            <div class="grid-item">1.subject</div>
+            <div class="grid-item">2.class</div>
+            <div class="grid-item">3.name</div>
+            <div class="grid-item">4.time</div>
+            <div class="grid-item">5.SECTION</div>
+
+        </div>
+
+</body>
+</html>

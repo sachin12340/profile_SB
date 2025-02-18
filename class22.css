@@ -1,0 +1,30 @@
+*{
+    background: #E8FCDF;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    color: #7bae04;
+    background: #dcc7e1;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end; /* Align content to the right */
+     /* Optional: Give the nav a background */
+    padding: 10px; /* Add some spacing */
+}
+nav a{
+    padding: 10px 15px;
+    color: #3a5115;
+    background: #F8CDAB;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    /* transition: background-color 0.3s, color 0.3s; */
+}
+nav a:hover {
+    background-color: #e3b595; /* Darker shade on hover */
+    color: white; /* Contrast text color */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
